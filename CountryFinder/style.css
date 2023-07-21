@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.head{
+    background-image:
+    linear-gradient( rgba(36, 36, 36, 0.52), rgba(65, 65, 65, 0.73)),
+    url('hand.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+}
+
+.title{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+form{
+    text-align: center;
+    margin-top: 20px;
+}
+#scan-input{
+    padding: 5px 20px 5px 2px;
+    width: 20%;
+    border-radius: 5px;
+}
+
+.big_div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#first_div{
+    color: #ffff;
+    font-size: 22px;
+    
+}
+#second_div{
+    color: #ffff;
+    font-size: 22px;
+    
+}
+#alt{
+    padding-bottom: 20px;
+}
+
+#timezone{
+    padding-bottom: 20px;
+}
+
+#details{
+    display: flex;
+    justify-content: space-around;
+    
+    background-image:
+    linear-gradient( rgba(29, 28, 28, 0.52), rgba(36, 35, 35, 0.73)),
+    url('content.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+#flag-div{
+    padding-top: 10%;
+}
+#coat-div{
+    padding-top: 8%;
+}
+
+#flag-detail{
+    font-size: 23px;
+    color: #ffff;
+}
+#coat-detail{
+    font-size: 23px;
+    color: #ffff;
+}
+
+#coat img{
+    padding-top: 2%;
+    height: 250px;
+    width: 350px;
+}
